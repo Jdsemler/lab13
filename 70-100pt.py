@@ -84,10 +84,7 @@ class MyApp:
 	    # Remember to include your "enemies" with "global"
 	    	
 		
-	def upClicked(self, event):   
-	   global oval
-	   global player
-	   drawpad.move(player,0,-20)
+	
 	def leftClicked(self, event):   
 	   global oval
 	   global player
