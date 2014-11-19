@@ -97,6 +97,10 @@ class MyApp:
 	   global oval
 	   global player
 	   drawpad.move(player,0,20)
+	def upClicked(self, event):   
+	   global oval
+	   global player
+	   drawpad.move(player,0,-20)
 		
 		
 app = MyApp(root)
